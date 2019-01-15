@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "[CSS] 크로스 브라우징 관련 모음"
+subtitle: ""
+date:   2019-01-15 1:30:13 -0400
+background: '/img/posts/post_css.jpg'
+---
+
+<h2 class="section-heading">1. CSS 셀렉터</h2>
+
+<p>CSS3 선택자 중 ( e1 ~ e2 ) , e[attr^="name"], e[attr$="name"], e[attr*="name"], e[attr|="name"] 선택자들을 IE7 과 IE8에서 사용할 수 있습니다. 나머지 선택자들은 IE9 이상부터 사용 할 수 있습니다. 자주 쓰는 셀럭터인 nth-child()의 경우도 IE9 부터 사용이 가능하기 때문에 class를 부여해 css 를 작성 해야 합니다. IE8 에서 콜론을 하나만 사용해서 :after를 사용할 수 있습니다. ::after은 IE9  이상부터 사용할 수 있습니다. 박스들에게 한쪽 방향에 여백을 줄 경우 first-child 를 이용해 작성 하는 것이 좋습니다. </p>
