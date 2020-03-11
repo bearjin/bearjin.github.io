@@ -5,3 +5,14 @@
 .gray_box{padding: 20px; margin-bottom: 20px; background-color: #eaeaea; border: 2px solid #000; box-sizing: border-box;}
 .gray_box:last-child{margin-bottom: 0;}
 .gray_box dt{margin-bottom: 20px; font-size: 14px;}
+
+.default_table{width: 100%;}
+.default_table thead th{padding: 10px 0; background-color: #000; font-size: 16px; color: #fff; text-align: center;}
+.default_table tbody th, .default_table tbody td{padding: 5px 0 5px 10px; font-size: 14px; text-align: left;}
+
+.html5_box_wrap > div{background-color: #eaeaea; font-size: 16px; color: #000; text-align: center; box-sizing: border-box;}
+.html5_box_wrap .html5_full{width: 100%; padding: 20px 0;}
+.html5_box_wrap .html5_middle{overflow: hidden;}
+.html5_box_wrap .html5_left{float: left; width: 48%; height: 100px; padding: 40px 20px 20px;}
+.html5_box_wrap .html5_right{float: right; width: 48%; height: 100px; padding: 40px 0;}
+.html5_box_wrap .html5_inner{float: none; padding: 20px 0; margin-top: 20px; background-color: #ddd;}
