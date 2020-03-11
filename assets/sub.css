@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 .hello{display:inline-block; position:relative; left:50%; padding:20px; background-color:#000; font-size:50px; color:#fff;}
+
+.gray_box{padding: 20px; margin-bottom: 20px; background-color: #eaeaea; border: 2px solid #000; box-sizing: border-box;}
+.gray_box:last-child{margin-bottom: 0;}
+.gray_box dt{margin-bottom: 20px; font-size: 14px;}
