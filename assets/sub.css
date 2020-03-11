@@ -14,7 +14,7 @@
 
 .html5_box_wrap > div{background-color: #eaeaea; font-size: 16px; color: #000; text-align: center; box-sizing: border-box;}
 .html5_box_wrap .html5_full{width: 100%; padding: 20px 0;}
-.html5_box_wrap .html5_middle{overflow: hidden; margin: 20px 0;}
+.html5_box_wrap .html5_middle{overflow: hidden; margin: 20px 0; background-color: #fff;}
 .html5_box_wrap .html5_left{float: left; width: 48%; height: 180px; padding: 40px 20px 20px;}
 .html5_box_wrap .html5_right{float: right; width: 48%; height: 180px; padding: 40px 0;}
 .html5_box_wrap .html5_inner{float: none; padding: 20px 0; margin-top: 20px; background-color: #ddd;}
