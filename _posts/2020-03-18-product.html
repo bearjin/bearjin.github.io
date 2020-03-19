@@ -5,157 +5,158 @@ subtitle: ""
 date:   2020-03-19 09:51:00
 background: '/img/posts/post_code.jpg'
 ---
-
-<form action="">
-    <div class="filter_wrap" data-menu="type1">
-        <div class="range_wrap">
-            <h2>사이즈</h2>
-            <div class="range">
-                <div class="value_wrap">      
-                    <p id="skip-value-lower" class="value-lower"></p>
-                    <p id="skip-value-upper" class="value-upper"></p>
+<div id="productWrap" class="product_wrap">
+    <form action="">
+        <div class="filter_wrap" data-menu="type1">
+            <div class="range_wrap">
+                <h2>사이즈</h2>
+                <div class="range">
+                    <div class="value_wrap">      
+                        <p id="skip-value-lower" class="value-lower"></p>
+                        <p id="skip-value-upper" class="value-upper"></p>
+                    </div>
+                    <div id="skipstep1" class="skip_step" data-type="horizontal"></div>
+                    <div class="form_value">
+                        <input class="form_value_min" type="text" value="">
+                        <input class="form_value_max" type="text" value="">
+                    </div>
                 </div>
-                <div id="skipstep1" class="skip_step" data-type="horizontal"></div>
-                <div class="form_value">
-                    <input class="form_value_min" type="text" value="">
-                    <input class="form_value_max" type="text" value="">
+                <div class="range">
+                    <div class="value_wrap">      
+                        <p id="skip-value-lower" class="value-lower"></p>
+                        <p id="skip-value-upper" class="value-upper"></p>
+                    </div>
+                    <div id="skipstep2" class="skip_step" data-type="vertical"></div>
+                    <div class="form_value">
+                        <input class="form_value_min" type="text" value="">
+                        <input class="form_value_max" type="text" value="">
+                    </div>
+                </div>
+                <div class="range">
+                    <div class="value_wrap">      
+                        <p id="skip-value-lower" class="value-lower"></p>
+                        <p id="skip-value-upper" class="value-upper"></p>
+                    </div>
+                    <div id="skipstep3" class="skip_step" data-type="width"></div>
+                    <div class="form_value">
+                        <input class="form_value_min" type="text" value="">
+                        <input class="form_value_max" type="text" value="">
+                    </div>
                 </div>
             </div>
-            <div class="range">
-                <div class="value_wrap">      
-                    <p id="skip-value-lower" class="value-lower"></p>
-                    <p id="skip-value-upper" class="value-upper"></p>
+            <div class="check_wrap">
+                <div class="type_wrap">
+                    <h2>타입</h2>
+                    <ul>
+                        <!--
+                        <li>
+                            <input type="checkbox" id="all_type" class="item_type" name="item_type" value="전체"><label for="all_type">전체</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_type1" class="item_type" name="item_type" value="로탱크원피스"><label for="item_type1">로탱크원피스</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_type2" class="item_type" name="item_type" value="벽걸이양변기"><label for="item_type2">벽걸이양변기</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_type3" class="item_type" name="item_type" value="비데일체형"><label for="item_type3">비데일체형</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_type4" class="item_type" name="item_type" value="유아용"><label for="item_type4">유아용</label>
+                        </li>
+                        -->
+                    </ul>
                 </div>
-                <div id="skipstep2" class="skip_step" data-type="vertical"></div>
-                <div class="form_value">
-                    <input class="form_value_min" type="text" value="">
-                    <input class="form_value_max" type="text" value="">
-                </div>
-            </div>
-            <div class="range">
-                <div class="value_wrap">      
-                    <p id="skip-value-lower" class="value-lower"></p>
-                    <p id="skip-value-upper" class="value-upper"></p>
-                </div>
-                <div id="skipstep3" class="skip_step" data-type="width"></div>
-                <div class="form_value">
-                    <input class="form_value_min" type="text" value="">
-                    <input class="form_value_max" type="text" value="">
+                <div class="ks_wrap">
+                    <h2>KS기호</h2>
+                    <ul>
+                        <!--
+                        <li>
+                            <input type="checkbox" id="all_ks" class="item_ks" name="item_ks" value="전체"><label for="all_ks">전체</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_ks1" class="item_ks" name="item_ks" value="C2020CR"><label for="item_ks1">C2020CR</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_ks2" class="item_ks" name="item_ks" value="C1210AR"><label for="item_ks2">C1210AR</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_ks3" class="item_ks" name="item_ks" value="C310R"><label for="item_ks3">C310R</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="item_ks4" class="item_ks" name="item_ks" value="C1510C"><label for="item_ks4">C1510C</label>
+                        </li>
+                        -->
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="check_wrap">
-            <div class="type_wrap">
-                <h2>타입</h2>
-                <ul>
-                    <!--
-                    <li>
-                        <input type="checkbox" id="all_type" class="item_type" name="item_type" value="전체"><label for="all_type">전체</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_type1" class="item_type" name="item_type" value="로탱크원피스"><label for="item_type1">로탱크원피스</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_type2" class="item_type" name="item_type" value="벽걸이양변기"><label for="item_type2">벽걸이양변기</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_type3" class="item_type" name="item_type" value="비데일체형"><label for="item_type3">비데일체형</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_type4" class="item_type" name="item_type" value="유아용"><label for="item_type4">유아용</label>
-                    </li>
-                    -->
-                </ul>
-            </div>
-            <div class="ks_wrap">
-                <h2>KS기호</h2>
-                <ul>
-                    <!--
-                    <li>
-                        <input type="checkbox" id="all_ks" class="item_ks" name="item_ks" value="전체"><label for="all_ks">전체</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_ks1" class="item_ks" name="item_ks" value="C2020CR"><label for="item_ks1">C2020CR</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_ks2" class="item_ks" name="item_ks" value="C1210AR"><label for="item_ks2">C1210AR</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_ks3" class="item_ks" name="item_ks" value="C310R"><label for="item_ks3">C310R</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="item_ks4" class="item_ks" name="item_ks" value="C1510C"><label for="item_ks4">C1510C</label>
-                    </li>
-                    -->
-                </ul>
+        <a href="javascript:void(0);" id="searchBtn" class="search_btn">검색</a>
+    </form>
+    <div class="product_list">
+        <ul>
+            <!--
+            <li>
+                <div class="tit_box">
+                    <h3>절수형 서양식 로탱크 일체형 변기</h3>
+                    <p>C-600</p>
+                </div>
+                <img src="../resource/img/product/BC-205[7].jpg" alt="">
+            </li>
+            <li>
+                <div class="tit_box">
+                    <h3>절수형 서양식 로탱크 일체형 변기</h3>
+                    <p>C-600</p>
+                </div>
+                <img src="../resource/img/product/BC-205[7].jpg" alt="">
+            </li>
+            <li>
+                <div class="tit_box">
+                    <h3>절수형 서양식 로탱크 일체형 변기</h3>
+                    <p>C-600</p>
+                </div>
+                <img src="../resource/img/product/BC-205[7].jpg" alt="">
+            </li>
+            <li>
+                <div class="tit_box">
+                    <h3>절수형 서양식 로탱크 일체형 변기</h3>
+                    <p>C-600</p>
+                </div>
+                <img src="../resource/img/product/BC-205[7].jpg" alt="">
+            </li>
+            -->
+        </ul>
+    </div>
+    <div id="productPop" class="product_pop">
+        <div class="img_area">
+            <img src="../resource/img/product/BC-205[7].jpg" alt="">
+        </div>
+        <div class="info_area">
+            <h3>절수형 서양식 로탱크 일체형</h3>
+            <p>C-942</p>
+            <div class="info_sub_area">
+                <dl>
+                    <dt>KS</dt>
+                    <dd class="info_ks">2020</dd>
+                </dl>
+                <dl>
+                    <dt>SIZE</dt>
+                    <dd class="info_size">123456789</dd>
+                </dl>
+                <dl>
+                    <dt>실용량</dt>
+                    <dd class="info_volume">6</dd>
+                </dl>
             </div>
         </div>
-    </div>
-    <a href="javascript:void(0);" id="searchBtn" class="search_btn">검색</a>
-</form>
-<div class="product_list">
-    <ul>
-        <!--
-        <li>
-            <div class="tit_box">
-                <h3>절수형 서양식 로탱크 일체형 변기</h3>
-                <p>C-600</p>
-            </div>
-            <img src="../resource/img/product/BC-205[7].jpg" alt="">
-        </li>
-        <li>
-            <div class="tit_box">
-                <h3>절수형 서양식 로탱크 일체형 변기</h3>
-                <p>C-600</p>
-            </div>
-            <img src="../resource/img/product/BC-205[7].jpg" alt="">
-        </li>
-        <li>
-            <div class="tit_box">
-                <h3>절수형 서양식 로탱크 일체형 변기</h3>
-                <p>C-600</p>
-            </div>
-            <img src="../resource/img/product/BC-205[7].jpg" alt="">
-        </li>
-        <li>
-            <div class="tit_box">
-                <h3>절수형 서양식 로탱크 일체형 변기</h3>
-                <p>C-600</p>
-            </div>
-            <img src="../resource/img/product/BC-205[7].jpg" alt="">
-        </li>
-        -->
-    </ul>
-</div>
-<div id="productPop" class="product_pop">
-    <div class="img_area">
-        <img src="../resource/img/product/BC-205[7].jpg" alt="">
-    </div>
-    <div class="info_area">
-        <h3>절수형 서양식 로탱크 일체형</h3>
-        <p>C-942</p>
-        <div class="info_sub_area">
-            <dl>
-                <dt>KS</dt>
-                <dd class="info_ks">2020</dd>
-            </dl>
-            <dl>
-                <dt>SIZE</dt>
-                <dd class="info_size">123456789</dd>
-            </dl>
-            <dl>
-                <dt>실용량</dt>
-                <dd class="info_volume">6</dd>
-            </dl>
+        <div class="btn_area">
+            <a href="javascript:void(0);" target="_blank">이미지</a>
+            <a href="javascript:void(0);" target="_blank">CAD파일</a>
+            <a href="javascript:void(0);" target="_blank">시공도면</a>
+            <a href="javascript:void(0);" target="_blank">시험성적서</a>
+            <a href="javascript:void(0);" target="_blank">환경표지인증서</a>
+            <a href="javascript:void(0);" id="printBtn" target="_blank">프린트</a>
         </div>
+        <a href="javascript:void(0);" id="popClose" class="pop_close" onclick="closePop()">닫기</a>
     </div>
-    <div class="btn_area">
-        <a href="javascript:void(0);" target="_blank">이미지</a>
-        <a href="javascript:void(0);" target="_blank">CAD파일</a>
-        <a href="javascript:void(0);" target="_blank">시공도면</a>
-        <a href="javascript:void(0);" target="_blank">시험성적서</a>
-        <a href="javascript:void(0);" target="_blank">환경표지인증서</a>
-        <a href="javascript:void(0);" id="printBtn" target="_blank">프린트</a>
-    </div>
-    <a href="javascript:void(0);" id="popClose" class="pop_close" onclick="closePop()">닫기</a>
 </div>

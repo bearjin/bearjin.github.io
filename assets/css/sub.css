@@ -20,6 +20,9 @@
 .html5_box_wrap .html5_inner{float: none; padding: 20px 0; margin-top: 20px; background-color: #ddd;}
 
 
+/* product_wrap */
+.product_wrap{width: 1200px;}
+
 /* filter_wrap */
 .filter_wrap{width: 1200px; margin: 200px auto 0; border: 1px solid #ddd; box-sizing: border-box;}
 .filter_wrap:after{display: block; clear: both; content: "";}
@@ -30,6 +33,7 @@
 .range_wrap{float: left; width: 30%; height: 500px; padding: 30px; border-right: 1px solid #ddd; box-sizing: border-box;}
 .range{position: relative; width: 300px; margin-bottom: 100px;}
 .value_wrap{overflow: hidden; margin-bottom: 20px;}
+.value_wrap p{margin: 0;}
 .value-lower{float: left;} 
 .value-upper{float: right;}
 
