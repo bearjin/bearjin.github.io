@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select{padding:0; margin:0;}
+body{color:#000; -webkit-text-size-adjust:none;}
+fieldset, img, button{border:0;}
+img, input, button{vertical-align:top;}
+table{border-collapse:collapse;}
+address, em{font-style:normal;}
+ol, ul{list-style:none;}
+hr{display:none;}
+a{text-decoration:none; color:#000;}
+a:hover, a:active{text-decoration:none;}
+legend{position:absolute; left:-9999px; top:0}
+caption{overflow:hidden; width:0; height:0; font-size:0; line-height:0;}
