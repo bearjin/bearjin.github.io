@@ -2,16 +2,21 @@
 
 .hello{display:inline-block; position:relative; left:50%; padding:20px; background-color:#000; font-size:50px; color:#fff;}
 
+/* gray_box_wrap */
+.gray_box_wrap{margin-bottom: 100px;}
 .gray_box{padding: 20px; margin-bottom: 20px; background-color: #eaeaea; border: 2px solid #000; box-sizing: border-box;}
 .gray_box:last-child{margin-bottom: 0;}
 .gray_box dt{margin-bottom: 20px; font-size: 14px;}
 
+/* default_table */
 .default_table{width: 100%; margin-bottom: 30px; border-collapse: collapse; border: 1px solid #000;}
 .default_table thead th{padding: 10px 0; background-color: #000; border-left: 1px solid #fff; font-size: 16px; color: #fff; text-align: center;}
 .default_table thead tr:first-child th{border-left: none;}
 .default_table tbody th, .default_table tbody td{padding: 5px 0 5px 10px; border-bottom: 1px solid #eee; font-size: 14px; text-align: left;}
 .default_table tbody td{border-left: 1px solid #eee;}
 
+/* html5_box_wrap */
+.html5_box_wrap{margin-bottom: 100px;}
 .html5_box_wrap > div{font-size: 16px; color: #000; text-align: center; box-sizing: border-box;}
 .html5_box_wrap .html5_full{width: 100%; padding: 20px 0; background-color: #eaeaea;}
 .html5_box_wrap .html5_middle{overflow: hidden; margin: 20px 0;}
@@ -19,6 +24,11 @@
 .html5_box_wrap .html5_right{float: right; width: 48%; height: 180px; padding: 40px 0; background-color: #eaeaea;}
 .html5_box_wrap .html5_inner{float: none; padding: 20px 0; margin-top: 20px; background-color: #ddd;}
 
+/* html5_plus_list */
+.html5_plus_list{margin-bottom: 100px;}
+.html5_plus_list ol{list-style: decimal;}
+.html5_plus_list li{margin-bottom: 30px;}
+.html5_plus_list li:last-child{margin-bottom: 0;}
 
 /* product_wrap */
 .product_wrap{width: 1200px;}
