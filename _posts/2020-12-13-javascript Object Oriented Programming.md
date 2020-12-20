@@ -1,10 +1,11 @@
 ---
 title: "Javascript 객체 지향 프로그래밍 공부하기"
 categories:
-  - Github blog
-tags:
-  - Github blog
   - Javascript
+tags:
+  - Javascript
+  - Object
+  - Study
 ---
 생활 코딩 JavaScript 객체 지향 프로그래밍
 https://opentutorials.org/module/4047
