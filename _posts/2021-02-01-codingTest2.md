@@ -9,7 +9,7 @@ tags:
   - Study
 ---
 
-프로그래머스 사이트의 코딩테스트 연습
+프로그래머스 사이트의 코딩테스트 연습   
 [정렬 - 완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
 
 ※ 효율성 통과를 하지 못해 코드 수정이 필요

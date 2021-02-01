@@ -9,7 +9,7 @@ tags:
   - Study
 ---
 
-프로그래머스 사이트의 코딩테스트 연습
+프로그래머스 사이트의 코딩테스트 연습   
 [정렬 - K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 
 ```
