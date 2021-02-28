@@ -14,7 +14,7 @@ tags:
 처음 작성했던 코드는 <code>completion</code>을 <code>forEach</code>문으로 돌면서 <code>participant</code>에서 일치하는 값을 찾고 해당값의 인덱스를 가져와 <code>splice()</code>를 통해 일치하는 값을 배열에서 삭제해 나가는 방법이였습니다. 채점 결과 테스트 결과는 일치하지만 효율성 테스트를 통과하지 못해 코드 수정이 필요했습니다.
 
 ※ 테스트 결과는 일치하지만 효율성 테스트를 통과 하지 못했던 코드
-```
+```javascript
 function solution(participant, completion) {
   var answer = '';
   completion.forEach(function(element){
@@ -30,7 +30,7 @@ solution(["leo", "kiki", "eden"], 	["eden", "kiki"]);
 코드 수정 후 효율성 테스트까지 통과했습니다.
 
 ※ 코드 수정 후 효율성 테스트까지 통과한 코드
-```
+```javascript
 function solution(participant, completion) {
   var answer = '';
   const ps = participant.sort();
