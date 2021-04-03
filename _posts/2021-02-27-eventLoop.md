@@ -1,7 +1,7 @@
 ---
 title: "이벤트 루프 알아보기"
 categories:
-  - React
+  - Javascript
 tags:
   - Javascript
   - Study
