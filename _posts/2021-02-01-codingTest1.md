@@ -12,7 +12,7 @@ tags:
 
 ```javascript
 function solution(array, commands) {
-    var answer = [];
+    let answer = [];
     commands.forEach(function(element){
         answer.push(array.slice(element[0] - 1, element[1]).sort((a,b)=> a-b)[element[2] - 1]);
     });

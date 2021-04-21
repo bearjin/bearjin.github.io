@@ -16,7 +16,7 @@ tags:
 ※ 테스트 결과는 일치하지만 효율성 테스트를 통과 하지 못했던 코드
 ```javascript
 function solution(participant, completion) {
-  var answer = '';
+  let answer = '';
   completion.forEach(function(element){
     participant.splice(participant.indexOf(element), 1);
   });
@@ -32,7 +32,7 @@ solution(["leo", "kiki", "eden"], 	["eden", "kiki"]);
 ※ 코드 수정 후 효율성 테스트까지 통과한 코드
 ```javascript
 function solution(participant, completion) {
-  var answer = '';
+  let answer = '';
   const ps = participant.sort();
   const cs = completion.sort();
   for(let i = 0; i < ps.length; i++){

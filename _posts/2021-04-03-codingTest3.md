@@ -12,8 +12,8 @@ tags:
 
 ```javascript
 function solution(clothes) {
-    var answer = 1;
-    var obj = {};
+    let answer = 1;
+    let obj = {};
     clothes.forEach(function (element) {
         if (obj[element[1]] >= 1) {
             obj[element[1]] += 1
@@ -22,7 +22,7 @@ function solution(clothes) {
         }
     });
 
-    for (var i in obj) {
+    for (let i in obj) {
         answer *= (obj[i] + 1)
     }
 
