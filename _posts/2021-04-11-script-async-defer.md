@@ -1,9 +1,9 @@
 ---
 title: "async 와 defer의 차이"
 categories:
-  - FrontEnd
+  - HTML
 tags:
-  - script
+  - html
   - async
   - defer
   - study

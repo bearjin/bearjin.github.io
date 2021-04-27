@@ -16,6 +16,30 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">HTML</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "HTML" %}
+                        <li><a href="/categories/html" class="">HTML ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Javascript</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Javascript" %}
+                        <li><a href="/categories/javascript" class="">Javascript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">React</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "React" %}
+                        <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
