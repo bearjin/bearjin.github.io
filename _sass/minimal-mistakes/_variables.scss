@@ -6,6 +6,14 @@
    Typography
    ========================================================================== */
 
+@import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@font-face {
+   font-family: 'Cafe24Oneprettynight';
+   src: local("Cafe24Oneprettynight"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff") format("woff");
+   font-weight: normal;
+   font-style: normal
+}
+
 $doc-font-size: 16 !default;
 
 /* paragraph indention */
@@ -29,8 +37,12 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+/* font add */
+$defaultFont: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$cafe24Font: "Cafe24Oneprettynight";
+
+$global-font-family: $defaultFont !default;
+$header-font-family: $cafe24Font !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
