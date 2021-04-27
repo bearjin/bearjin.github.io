@@ -1,7 +1,7 @@
 ---
 title: "프로그래머스 코딩 테스트 #3 위장"
 categories:
-  - Coding Test
+  - Programmers
 tags:
   - Programmers
   - Javascript
