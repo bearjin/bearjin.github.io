@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Bearjin's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -271,7 +271,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
+      comments: true
+      share: false
       related: true
       sidebar_main: true
