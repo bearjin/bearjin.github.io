@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 코딩 테스트 #3 위장"
+title: "프로그래머스 코딩 테스트 #3 로또의 최고 순위와 최저 순위"
 categories:
   - Programmers
 tags:
