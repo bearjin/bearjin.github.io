@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 코딩 테스트 #3 로또의 최고 순위와 최저 순위"
+title: "프로그래머스 코딩 테스트 #4 로또의 최고 순위와 최저 순위"
 categories:
   - Programmers
 tags:
@@ -14,7 +14,7 @@ tags:
 
 ## 테스트 결과를 통과하지 못했던 코드
 
-```
+```javascript
 function solution(lottos, win_nums) {
     var answer = [];
     var zeroNumber = 0;
@@ -40,7 +40,7 @@ function solution(lottos, win_nums) {
 처음에는 rank를 7로 적용해 최고순위를 7 - (맞힌 갯수 + 0의 갯수), 최저 순위를 7 - 맞힌 갯수로 적용했었다 결과는 테스트 케이스에서 1,3번째는 통과 했지만 2번째 케이스에서 [1,7]로 결과가 나와 통과 하지 못해 어떻게 맞힌 갯수가 0 ~ 1개였을때 둘다 6등으로 변환 시켜줄 수 있을지를 고민했고 배열을 이용해 원하는 결과를 얻을 수 있었다.
 
 ## 테스트 결과 통과 코드
-```
+```javascript
 function solution(lottos, win_nums) {
     var answer = [];
     var zeroNumber = 0;
