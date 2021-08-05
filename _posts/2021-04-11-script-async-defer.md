@@ -72,5 +72,5 @@ async는 브라우저가 파싱하는 도중 <code>&lt;script&gt;</code>를 만�
 ```
 defer는 async와 마찬가지로 브라우저가 파싱하는 도중 <code>&lt;script&gt;</code>를 만나게 되었을 때 파싱하는 것을 멈추지 않고 파일을 다운받기 시작한 후 파싱을 끝까지 실행합니다. 모든 파싱을 마친 후 다운로드 받은 script 파일을 실행합니다. 이로인해 렌더링 시간을 가장 단축 시킬 수 있어 이 <code>&lt;script&gt;</code>에 defer 속성을 사용하는 것을 가장 추천하지만 IE 하위 브라우저에서는 이 속성을 지원하지 않는 경우가 있어 하위브라우저를 지원해야 되는 경우에는 2번째 경우를 사용하시는 것을 추천드립니다.
 
-Reference
-[드림코딩 - 자바스크립트 기초 강의](https://www.youtube.com/watch?v=tJieVCgGzhs&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=2)
+## Reference
+🔗[드림코딩 - 자바스크립트 기초 강의](https://www.youtube.com/watch?v=tJieVCgGzhs&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=2)

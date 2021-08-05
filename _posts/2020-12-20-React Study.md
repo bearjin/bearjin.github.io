@@ -8,7 +8,7 @@ tags:
   - Study
 ---
 
-생활 코딩 React - [https://opentutorials.org/module/4058](https://opentutorials.org/module/4058)
+ 🔗[생활 코딩 React](https://opentutorials.org/module/4058)
 
 ### 공부를 마치고...
 리액트 기초를 다지기위해 생활코딩을 수업을 듣게 되었는데 너무 많은 도움이 되었다.
@@ -17,8 +17,8 @@ es6 문법으로 변경도 해보고 배운 내용들을 계속해서 반복해�
 어려움이 없도록 연습을 해나갈 생각이다.
 
 ### 추가 공부하면 좋은 것들
-- [immutable=js](https://immutable-js.github.io/immutable-js/)
-- [react router](https://reactrouter.com/)
+- 🔗[immutable=js](https://immutable-js.github.io/immutable-js/)
+- 🔗[react router](https://reactrouter.com/)
 - create-react-app + npm run eject
 - redux
 - react server side rendering

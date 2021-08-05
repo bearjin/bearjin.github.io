@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 코딩 테스트 #5 부족한 금액 계산하기"
+title: "프로그래머스 Weekly Challenge 1주차"
 categories:
   - Programmers
 tags:
@@ -8,9 +8,9 @@ tags:
   - Study
 ---
 
-[코딩테스트 연습 - 부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612?language=javascript)
+🔗[프로그래머스 Weekly Challenge 1주차 - 부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612?language=javascript)
 
-프로그래머스 위클리 챌린지 참여하기 1주차 문제 도전
+프로그래머스 위클리 챌린지 참여하기 1주차 문제
 
 ## 채점 결과 정확성: 95.7 합계: 95.7 / 100.0 를 받았던 코드
 
@@ -54,7 +54,7 @@ function solution(price, money, count) {
 ```
 
 현재 좋아요를 가장 많이 받은 코드인데 가우스공식을 이용했다고하는데 단 2줄로 가능하다니... 대단하다...
-[가우스 공식 참고 링크](https://eguegu.tistory.com/4351)
+🔗[가우스 공식 참고 링크](https://eguegu.tistory.com/4351)
 ```javascript
 function solution(price, money, count) {
   const tmp = price * count * (count + 1) / 2 - money;

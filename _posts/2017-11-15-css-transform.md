@@ -38,4 +38,4 @@ rotate 속성값은 X,Y,Z 축 값에 따라 회전을 시켜주는 효과를 나
 skew 속성값은 X,Y 축 값에 따라 기울기 효과를 나타냅니다.   
 matrix 속성값은 transform 이 가진 모든 효과들을 한번에 나타낼 수 있는 값입니다. 여러 효과를 한번에 사용할 때 matrix 속성값을 사용해 코드의 양을 줄일 수 있습니다. 하지만 코드를 입력하는 단위나 수치가 다르기 때문에 코드입력에 주의를 해야 합니다. 
 
-[codepen transform 예제](https://codepen.io/vineethtrv/pen/XKKEgM)
+🔗[codepen transform 예제](https://codepen.io/vineethtrv/pen/XKKEgM)

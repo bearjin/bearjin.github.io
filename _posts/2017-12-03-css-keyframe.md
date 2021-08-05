@@ -64,7 +64,8 @@ animation 속성의 하위 속성에는
 
 animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction 순으로 축약하여 작성 할 수 있습니다.
 
-[애니메이션1](https://jsfiddle.net/n9d0w8pb/1/)
-[박스 이동 애니메이션](https://jsfiddle.net/3pmd3h29/1/)
-[사각형에서 원 모양 변경 및 회전](https://jsfiddle.net/23b9b7bx/)
-[애니메이션2](https://jsfiddle.net/bearjin/L3wbekdy/4/)
+### Reference
+🔗[애니메이션1](https://jsfiddle.net/n9d0w8pb/1/)    
+🔗[박스 이동 애니메이션](https://jsfiddle.net/3pmd3h29/1/)    
+🔗[사각형에서 원 모양 변경 및 회전](https://jsfiddle.net/23b9b7bx/)    
+🔗[애니메이션2](https://jsfiddle.net/bearjin/L3wbekdy/4/)

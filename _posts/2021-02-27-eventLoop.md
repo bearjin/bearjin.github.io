@@ -82,6 +82,7 @@ console.log("끝");
 
 호출스택이 비어질때마다 태스큐 큐에 있는 콜백 함수를 호출스택으로 이동시켜 실행하는것을 **이벤트 루프(Event loop)**라고 합니다.
 
-[http://meetup.toast.com/posts/89](http://meetup.toast.com/posts/89)
-[제로초님 이벤트 루트 관련 글](https://www.zerocho.com/category/JavaScript/post/597f34bbb428530018e8e6e2)
-[이벤트 루프 직접 테스트 하기](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+## Reference    
+🔗[http://meetup.toast.com/posts/89](http://meetup.toast.com/posts/89)    
+🔗[제로초님 이벤트 루트 관련 글](https://www.zerocho.com/category/JavaScript/post/597f34bbb428530018e8e6e2)    
+🔗[이벤트 루프 직접 테스트 하기](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)

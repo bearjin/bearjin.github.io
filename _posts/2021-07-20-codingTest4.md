@@ -8,7 +8,7 @@ tags:
   - Study
 ---
 
-[코딩테스트 연습 - 로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)
+🔗[코딩테스트 #4 - 로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)
 
 오랜만에 코딩테스트 문제를 풀어보았다. 로또의 최고 순위와 최저 순위를 맞혀보는 문제였는데 맞힌 갯수를 순위로 변경해주는 부분에서 생각을 잘 못해 시간이 조금 걸렸다.
 

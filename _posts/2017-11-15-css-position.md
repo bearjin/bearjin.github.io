@@ -24,4 +24,4 @@ absolute는 relative와 마찬가지로 offset 값을 통해 이동이 가능하
 ### fixed
 fixed는 브라우저 화면에서의 고정적인 위치를 지정해주는 값입니다. 화면이 변하더라도 항상 화면상에 같은 위치에 고정되어 위치를 지정 할 수 있으며 다른 요소들의 위치값에 영향을 받지 않습니다.
 
-[position sample 링크](https://jsfiddle.net/a2L2cmhp/)
+🔗[position sample 링크](https://jsfiddle.net/a2L2cmhp/)

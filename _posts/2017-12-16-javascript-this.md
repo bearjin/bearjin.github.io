@@ -30,7 +30,7 @@ console.log(window.a); // 28
 ## 함수 컨텍스트
 함수 내부에서, this는 함수를 호출한 방법에 의해 좌우됩니다.
 
-### 단순 함수 호출시
+## 단순 함수 호출시
 ```javascript
 function f1(){
   return this;
@@ -59,12 +59,12 @@ if(f1() === window){
 ECMA 에서는 엄격모드를 통해 this에 undefined 값을 주도록 하여 이러한 손상을 방지하게 설정 했다고 합니다.
 
 비엄격모드에서의 결과   
-![this](/assets/images/this_img01.png)
+![this_img01](/assets/images/this_img01.png)
 
 엄격모드에서의 결과   
-![this](/assets/images/this_img02.png)
+![this_img02](/assets/images/this_img02.png)
 
-### 객체의 메소드 호출시
+## 객체의 메소드 호출시
 함수가 객체의 프로퍼티이면 메소드 호출 패턴으로 호출됩니다. 이때 메소드 내부의 this는 해당 메소드를 소유한 객체 즉 해당 메소드를 호출한 객체에 바인딩됩니다. 
 
 ```javascript
@@ -90,12 +90,12 @@ obj2.sayName();  // Lee 여기서 this는 obj2
 obj1.sayName();
 obj2.sayName();
 ```
-![this](/assets/images/this_img03.png)
+![this_img03](/assets/images/this_img03.png)
 
-### 명시적인 this 바인딩
+## 명시적인 this 바인딩
 직관적으로 코드에 의도를 나타내는 방법으로 명시적 바인딩이 있습니다. 자바스크립트의 call(), apply(), bind() 함수가 그런 역활을 하는 내장 함수들 입니다. call() 과 apply() 함수는 실행할 함수 인자를 넘기는 방식만 다를뿐, 컨텍스트 객체를 명시한다는 점에서 동일한 함수입니다. 또한 call() 과 apply()는 함수 호출을 따로 하지 않아도 함수를 호출합니다. 
 
-#### apply
+### apply
 apply()를 통한 this의 바인딩을 먼저 살펴 보겠습니다.
 
 ```javascript
@@ -122,7 +122,7 @@ person.hello.apply({ name: "woongjin" }, ["world"]);
 // 실행 결과 : woongjin says helloworld
 ```
 
-#### call
+### call
 call은 apply 와 같은 기능을 가지고 있습니다. 차이점을 call은 인자를 배열로 받지 않는다는 점입니다.
 apply에서 처음 사용했던 코드처럼 ex.apply(null,[1,2,3]); 인자를 배열형식으로 사용한다면 apply 그렇지 않다면 
 call을 사용해 ex.call(null,1,2,3); 처럼 입력하면 같은 결과를 출력 하게됩니다.
@@ -138,7 +138,7 @@ ex.call(null,1,2,3); // this에 객체를 지정하지 않아도 되기 때문�
 // 실행 결과 : 1,2,3 가 저장되었습니다.
 ```
 
-#### bind
+### bind
 bind() 함수는 함수가 가리키는 this만 바꾸고 호출은 하지 않습니다. 함수를 즉시 호출하여 사용할때에는 call(), apply()를 사용하고
 해당함수를 특정 컨텍스트에서 호출해 사용하고 싶다면 bind()를 사용하여 this를 지정해주고 변수에 담아 호출해야 합니다. 
 
@@ -155,11 +155,11 @@ helloFunc();
 // 실행 결과 : woongjin says helloworld
 ```
 
-![this](/assets/images/this_img04.png)
+![this_img04](/assets/images/this_img04.png)
 
-#### Reference
-[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)
-[http://poiemaweb.com/js-this](http://poiemaweb.com/js-this)
-[https://hyunseob.github.io/2016/03/10/javascript-this/](https://hyunseob.github.io/2016/03/10/javascript-this/)
-[http://blog.jeonghwan.net/2017/10/22/js-context-binding.html](http://blog.jeonghwan.net/2017/10/22/js-context-binding.html)
-[http://webframeworks.kr/tutorials/translate/explanation-of-this-in-javascript-1/](http://webframeworks.kr/tutorials/translate/explanation-of-this-in-javascript-1/)
+### Reference
+🔗[https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)   
+🔗[http://poiemaweb.com/js-this](http://poiemaweb.com/js-this)   
+🔗[https://hyunseob.github.io/2016/03/10/javascript-this/](https://hyunseob.github.io/2016/03/10/javascript-this/)   
+🔗[http://blog.jeonghwan.net/2017/10/22/js-context-binding.html](http://blog.jeonghwan.net/2017/10/22/js-context-binding.html)   
+🔗[http://webframeworks.kr/tutorials/translate/explanation-of-this-in-javascript-1/](http://webframeworks.kr/tutorials/translate/explanation-of-this-in-javascript-1/)
