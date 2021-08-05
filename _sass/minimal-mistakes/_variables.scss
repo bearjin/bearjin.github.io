@@ -7,12 +7,6 @@
    ========================================================================== */
 
 @import url('https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
-@font-face {
-   font-family: 'Cafe24Oneprettynight';
-   src: local("Cafe24Oneprettynight"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff") format("woff");
-   font-weight: normal;
-   font-style: normal
-}
 
 $doc-font-size: 16 !default;
 
@@ -21,28 +15,53 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$serif: Georgia,
+Times,
+serif !default;
+$sans-serif: -apple-system,
+BlinkMacSystemFont,
+"Roboto",
+"Segoe UI",
+"Helvetica Neue",
+"Lucida Grande",
+Arial,
+sans-serif !default;
+$monospace: Monaco,
+Consolas,
+"Lucida Console",
+monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: Helvetica,
+"Helvetica Neue",
+Arial,
+sans-serif !default;
 
 /* serif typefaces */
-$georgia: Georgia, serif !default;
-$times: Times, serif !default;
-$bodoni: "Bodoni MT", serif !default;
-$calisto: "Calisto MT", serif !default;
-$garamond: Garamond, serif !default;
+$georgia: Georgia,
+serif !default;
+$times: Times,
+serif !default;
+$bodoni: "Bodoni MT",
+serif !default;
+$calisto: "Calisto MT",
+serif !default;
+$garamond: Garamond,
+serif !default;
 
 /* font add */
-$defaultFont: "Iropke Batang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$cafe24Font: "Cafe24Oneprettynight";
-
+$defaultFont: "Iropke Batang",
+-apple-system,
+BlinkMacSystemFont,
+"Roboto",
+"Segoe UI",
+"Helvetica Neue",
+"Lucida Grande",
+Arial,
+sans-serif !default;
 $global-font-family: $defaultFont !default;
-$header-font-family: $cafe24Font !default;
+$header-font-family: $defaultFont !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -164,7 +183,7 @@ $max-width: $x-large !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow: 100px !default;
-$right-sidebar-width: 200px !default;
+$right-sidebar-width: 250px !default;
 $right-sidebar-width-wide: 400px !default;
 
 /*
