@@ -90,7 +90,7 @@ Render Object Tree 가 말했듯이 DOM Tree의 노드 중에서 화면에 보�
 Render Object의 속성에 따라 필요한 경우 Render Layer가 만들어 집니다. 그리고 이 Render Layer 중에서 GPU 에서 처리되는 부분이 있으면 다시 Graphic Layer로 분리 됩니다. 대표적으로 다음과 같은 속성들이 쓰였을 때 Graphic Layer가 만들어지게 됩니다. (이 과정에서 '하드웨어 가속'을 사용하여  성능을 좋게 할 수 있습니다.)
 
 - CSS 3D Transform(translate3d, preserve-3d 등등) 이나 perspective 속성이 적용된 경우
-- <code><video></code> 또는 <code><canvas></code> 요소
+- video 또는 canvas 요소
 - CSS3 애니메이션 함수나 CSS 필터 함수를 사용하는 경우
 - 자식 요소가 레이어로 구성된 경우
 - z-index 값이 낮은 형제 요소가 레이어로 구성된 경우

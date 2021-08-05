@@ -35,7 +35,7 @@ CSS 스프라이트(sprite) 기법은 여러개의 이미지를 하나로 모아
 
 모든 구성 요소에 만료 날짜를 설정하는 것이 아니라 만료 날짜 동안 수정되지 않아도 문제가 되지 않을 요소들에게 적용해야 합니다. 만약 만료 날짜 전에 파일을 수정해야 한다면 파일이름을 변경하거나 캐시 데이터를 재 다운로드 받아 수정해야 합니다. 만약 이렇게 하지 않는다면 계속 같은 파일로 인식해 기존의 사용자 컴퓨터에 있는 파일을 로딩해 사용하게 되어 새로운 정보가 웹페이지에 나타나지 않습니다. 
 
-![웹 최적화 관련 이미지](/assets/images/web-optimization_img03.png)
+![웹 최적화 관련 이미지](/assets/images/web-optimization_img03.PNG)
 
 
 ## 4. Gzip 
@@ -142,6 +142,6 @@ Internet Explorer는 기본적으로 DnsCacheTimeout레지스트리 설정에 �
 
 ### Reference
 🔗[구글 이미지 최적화](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ko)      
-🔗[웹 사이트 최적화 방법](http://12bme.tistory.com/128?category=682905)
-🔗[네이버 개발블로그 웹 사이트 최적화](https://d2.naver.com/helloworld/303083)
+🔗[웹 사이트 최적화 방법](http://12bme.tistory.com/128?category=682905)     
+🔗[네이버 개발블로그 웹 사이트 최적화](https://d2.naver.com/helloworld/303083)      
 🔗[성능 최적화 :: TOAST UI](https://ui.toast.com/fe-guide/ko_PERFORMANCE)
