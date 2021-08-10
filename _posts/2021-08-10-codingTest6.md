@@ -1,5 +1,5 @@
 ---
-title: "프로그래머스 Weekly Challenge 1주차"
+title: "프로그래머스 Weekly Challenge 2주차"
 categories:
   - Programmers
 tags:
