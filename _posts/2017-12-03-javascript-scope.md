@@ -13,6 +13,7 @@ SCOPE (스코프)는 직역하면 영역, 범위라는 뜻을 가지고 있습�
 
 - Global Scope 는 전역 범위로 전역 범위에서 선언된 변수는 코드 어느 곳에서도 참조하여 사용 할 수 있습니다.    
 - Local Scope 는 지역 범위로 지역 범위에서 선언된 변수는 선언된 함수 내부안에서만 참조하여 사용 할 수 있습니다.
+
 ```javascript
 // global scope 영역
 var global_scope = "global";
