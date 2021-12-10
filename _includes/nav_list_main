@@ -60,7 +60,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "KakaoMap" %}
-                        <li><a href="/categories/kakaomap" class="">카카오맵 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/kakaomap" class="">Kakaomap ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -68,7 +68,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Server" %}
-                        <li><a href="/categories/server" class="">서버 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/server" class="">Server ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
